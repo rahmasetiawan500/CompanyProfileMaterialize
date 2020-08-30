@@ -1,0 +1,22 @@
+.slider h3,
+.slider h5,
+.clients h3 {
+    text-shadow: 3px 1px 3px rgba(0, 0, 0, 0.5)
+}
+
+.parallax img {
+    filter: grayscale(1);
+    /* kasih !important untuk memaksa css berjalan */
+    opacity: 0.5 !important;
+}
+
+.clients img {
+    max-width: 200px;
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));
+}
+
+section,
+footer,
+ {
+    padding: 20px 0px;
+}
